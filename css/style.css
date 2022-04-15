@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #475F45;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.section {
+    height: 100vh;
+}
+
+.title {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #343D33;
+
+}
+
+.subtitle {
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+}
+.logo__text{
+    margin-left: 14px;
+}
+.logo__title{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    margin-bottom: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #343D33;
+}
+.nav__list{
+    display: flex;
+    align-items: center;
+}
+.nav__item{
+    margin-right: 40px;
+}
+.nav__link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+.nav__item--border{
+    border: 2px solid #475F45;
+    padding: 15px 30px;
+    display: block;
+}
+.hero__content{
+    display: flex;
+    align-items: center;
+}
+.hero__img-wrap{
+    margin-left: 184px;
+}
+.hero__desc{
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #414840;
+}
+.hero__btns{
+    display: flex;
+}
+.btn{
+    display: block;
+    padding: 20px 40px;
+    border: solid #343D33;
+    margin-right: 16px;
+    color: #343D33;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+.btn--active{
+    background-color: #343D33;
+    color: white;
+}
+.hero__img-wrap{
+    margin-top: 32px;
+}
+.hero__img{
+    border-radius: 500px 500px 0px 0px;
+}
