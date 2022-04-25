@@ -260,15 +260,18 @@ a {
 }
 .news__item{
     display: flex;
+    margin-bottom: 20px;
+    
 }
 .news__item--big{
-    width: 43%;
+    width: 520px;
     flex-direction: column;
+    margin-right: 50px;
 }
 .news__item-desc{
     flex: 1;
 }
-.news__item-big .news__img-wrap{
+.news__item--big .news__img-wrap{
     width: 100%;
     height: 333px;
 }
@@ -282,6 +285,7 @@ a {
     object-fit: cover;
  }
 .news__link{
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -290,8 +294,34 @@ a {
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #475F45;
+    align-items: center;
+    margin-bottom: 48px;
 }
+.news__link::before{
+    box-sizing: border-box;
+    content: '' ;
+    display: block;
+    height: 0;
+    width: 131px;
+    border-bottom: 2px solid rgba(  71, 95, 69, 0.4);
+    margin-right: 20px;
 
+}
+.news__link::after{
+    box-sizing: border-box;
+    content: '' ;
+    display: block;
+    height: 24px;
+    width: 24px;
+    margin-left: 12px;
+    background-image: url(../img/arrow-right.jpg);
+    background-position: center;
+    background-size: contain;
+
+}
+ .news__list .news__item-desc{
+     margin-left: 20px;
+ }
 .news__item-title{
     font-family: 'Libre Baskerville';
     font-style: normal;
@@ -302,6 +332,7 @@ a {
     margin-top: 20px;
     margin-bottom: 12px;
 }
+
 .news__item-text{
     font-family: 'Roboto';
     font-style: normal;
@@ -319,3 +350,55 @@ a {
     line-height: 150%;
     color: #343D33;
 }
+
+.footer{
+    background-color: #414840;
+}
+.footer__container{
+    background-color: #414840;
+    max-width: 1400px;
+    display: flex;
+}
+.logo__subtitle{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12.3234px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.footer__info{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 269px;
+height: 96px;
+}
+
+
+
+
+
+
+.social__list{
+    margin-right: 32px;
+}
+
+.social__item{
+    margin-right: 32px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twitter{
+    background-image: url(../img/icon/twitter.svg);
+    background-repeat: no-repeat;
+}
+
+
